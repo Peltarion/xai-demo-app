@@ -33,4 +33,8 @@ docker-compose build
 docker-compose up
 ```
 
-To use this repo as a template for a similar app, you need to dump the components you need into a ```.pkl``` file by using a script similar to ```pickles.py```. You might need to change ports if the chosen ones are already allocated. 
+**4. View the app in your browser at port 8501**
+
+*Notes:*<br> 
+You might need to change ports if the chosen ones are already allocated.<br> 
+To use this repo as a template for a similar app, dump the components you need into a ```.pkl``` file by using a script similar to ```pickles.py```, and modify ```pythonapi/app.py``` and ```streamlitapi/webbapp.py``` accordingly. <br> 
